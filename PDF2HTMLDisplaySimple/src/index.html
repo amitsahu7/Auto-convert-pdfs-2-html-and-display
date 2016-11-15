@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- stylesheets go here -->
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- scripts -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page" id="home">
+
+    <div data-role="header">
+        <h1>PDF 2 HTML displays</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="ui-body ui-body-b">
+            <h2>Choose PDF to convert and display</h2>
+            <form id="PDFForm">
+                <input type="search" name="fileName" id="PDFInput" placeholder="Select PDF" />
+                <button type="submit" data-role="button" data-theme="b">Display</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <iframe name="ifrm" id="ifrm" src="../PDFs/convolution.html" frameborder="0">
+            <p>Your browser does not support iframes.</p>
+    </iframe>
+
+</div>
+
+
+
+</body>
+</html>
+
